@@ -1,0 +1,10 @@
+{
+  "name": "JavaScript_Sample",
+  "version": "1.0.0",
+  "description": "",
+  "author": "hamuhamu",
+  "engines": {
+    "node": "^5.10.1",
+    "npm": "^3.8.3"
+  }
+}
