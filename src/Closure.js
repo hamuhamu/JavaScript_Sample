@@ -1,16 +1,9 @@
 'use strict';
 
-let closure = function() {
+module.exports = function() {
     let counter = 1;
 
     return function() {
         return counter++;
     };
 };
-
-var func = closure();
-console.log(func());
-console.log(func());
-
-console.log(closure()());
-console.log(closure()());
