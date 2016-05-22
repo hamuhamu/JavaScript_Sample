@@ -13,6 +13,6 @@
     "sinon": "^1.17.4"
   },
   "scripts": {
-    "test": "mocha --ui tdd"
+    "test": "NODE_PATH=src mocha --ui tdd"
   }
 }
